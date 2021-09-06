@@ -1,0 +1,35 @@
+Author:  Jesse Musa
+Project: Sentiment Analysis
+Date: 09/04/2021
+
+My Soution to this problem had 5 parts.
+
+1. Clean the input by removing unneeded symbols and extra characters that would hinder the processing
+2. Removing stop words that add no value to the sentence
+3. Using a sentiment dictionary to figure out the sentiments of words
+4. Find whether to negate the sentiment value of sentences using negation words
+5. Find the average of the sentiments of all the useful words in the input
+
+The program outputs a sentiment value from range [-1,1] where 1 is extremely positive, 0 is neutral and -1 is negative.
+My method got me a sentiment value of 0.1206896551724138 with the given input.
+
+References:
+    #Basic explaination
+    “A Quick Guide To Sentiment Analysis | Sentiment Analysis In Python Using Textblob | Edureka.”
+    Youtube, uploaded by edureka!, 8 Aug. 2018,
+    www.youtube.com/watch?v=O_B7XLfx0ic.
+
+    #Indepth explaination
+    “Lecture 5 – Sentiment Analysis 1 | Stanford CS224U: Natural Language Understanding | Spring 2019.”
+    Youtube, uploaded by stanfordonline, 18 July 2019,
+    www.youtube.com/watch?v=O1Xh3H1uEYY.
+
+    #Stopwords
+    https://www.ranks.nl/stopwords
+
+    #Sentiment Dictionary
+    Theresa Wilson, Janyce Wiebe, and Paul Hoffmann (2005). Recognizing Contextual Polarity in Phrase-Level Sentiment Analysis. Proc. of HLT-EMNLP-2005.
+    http://mpqa.cs.pitt.edu/lexicons/subj_lexicon/
+
+    # Negation Words
+    https://www.grammarly.com/blog/negatives/
